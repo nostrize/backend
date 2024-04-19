@@ -1,0 +1,22 @@
+{
+  "name": "@nostrize/backend",
+  "version": "1.0.0",
+  "description": "Nostrize backend",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts",
+    "start": "NODE_ENV=production bun src/index.ts",
+    "test": "bun test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nostr-tools": "^2.5.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
